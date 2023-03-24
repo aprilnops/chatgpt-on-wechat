@@ -1,0 +1,16 @@
+ {
+   "open_ai_api_key": "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",
+   "model": "gpt-3.5-turbo",
+   "proxy": "",
+   "single_chat_prefix": ["bot", "@bot", "nn","@nn"],
+   "single_chat_reply_prefix": "[粘粘] ",
+   "group_chat_prefix": ["@bot","bot"],
+   "group_name_white_list": ["村花村草", "ChatGPT测试群2"],
+   "image_create_prefix": ["画", "看", "找"],
+   "speech_recognition": false,
+   "voice_reply_voice": false,
+   "conversation_max_tokens": 1000,
+   "expires_in_seconds": 3600,
+   "character_desc": "我是ChatGPT, 一个由OpenAI训练的大型语言模型, 旨在回答并解决人们的任何问题，并且可以使用多种语言与人交流。"
+ }
+
