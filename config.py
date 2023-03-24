@@ -16,6 +16,10 @@ def load_config():
     config_str = read_file(config_path)
     # 将json字符串反序列化为dict类型
     config = json.loads(config_str)
+    config['open_ai_api_key'] = os.getenv('open_ai_api_key')
+    config['single_chat_prefix'] = os.getenv('single_chat_prefix')
+    config['single_chat_reply_prefix'] = os.getenv('single_chat_reply_prefix')
+    config['group_name_white_list'] = os.getenv('group_name_white_list')
     logger.info("[INIT] load config: {}".format(config))
 
 
